@@ -1,0 +1,31 @@
+{
+    "users": [
+        {
+            "id": "000000000",
+            "name": "admin",
+            "password": "admin",
+            "sunExposure": {
+                "alta": 1.15,
+                "media": 1.1
+            }
+        },
+        {
+            "id": "283499999",
+            "name": "Miquel Betancor",
+            "password": "12Miq345",
+            "sunExposure": {
+                "alta": 1.15,
+                "media": 1.1
+            }
+        },
+        {
+            "id": "111111111",
+            "name": "Pedro Jimenez",
+            "password": "12345",
+            "sunExposure": {
+                "alta": 1.15,
+                "media": 1.1
+            }
+        }
+    ]
+}

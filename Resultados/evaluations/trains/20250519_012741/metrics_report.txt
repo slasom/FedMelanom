@@ -1,0 +1,11 @@
+Final Metrics:
+  Accuracy:  0.7193
+  Precision: 0.2603
+  Recall:    0.8292
+  AUC:       0.8429
+
+Optimal Threshold (F1-max): 0.697
+
+Training time summary:
+  Total time: 6792.94 seconds
+  Avg time/epoch: 338.51 seconds

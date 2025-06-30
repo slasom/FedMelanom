@@ -1,0 +1,33 @@
+.itemList {
+    position: relative;
+    width: 50vw;
+    height: 25vh;
+    border: 0.2vw solid #ccc;
+    border-radius: 1.5vh;
+    display: flex;
+    flex-direction: row;
+    margin: 0vh 0vw 1vh 0vw;
+    transition: ease-in-out 0.3s;
+}
+.itemList:hover{
+   transform: scale(1.05);
+   box-shadow:  0.5vw 0.5vw 2vw rgba(59, 59, 59, 0.5);;
+}
+.itemListSelected {
+   border-color:  #43cc4a;
+   background-color: #b4edb7;
+}
+.itemListInfo {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    left: 3%;
+    top: 12%;
+}
+.itemListText {
+    width: 30vw;
+    font-size: 2vh;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,29 @@
+.navbar {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 7vh;
+    font-size: 2vh;
+    align-items: center;
+    box-shadow: 0px 0px 20px rgba(177, 175, 240, 2);
+}
+.navbar-list {
+    list-style-type: none;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.navBarItem{
+    position: relative;
+    width: max-content;
+    font-weight: 600;
+    text-decoration: none;
+    color: inherit;
+    margin-right: 1vw;
+    transition: ease 0.5s;
+    cursor: pointer;
+}
+.navBarItem:hover{
+    color: #ff8ad4;
+    text-shadow: 0.5vw 0.5vw 1vw rgba(0, 0, 0, 0.5);
+}

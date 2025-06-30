@@ -1,0 +1,34 @@
+<div class="detailContainer">
+  <ng-container *ngIf="!isClicked">
+    <div (click)="changeImage()" class="clickable">
+      <app-image size="40vh"
+                 imageClass="detailImage"
+                 [src]="originalImageUrl">
+      </app-image>
+    </div>
+  </ng-container>
+
+  <ng-container *ngIf="isClicked">
+    <div (click)="changeImage()" class="clickable">
+      <app-image size="40vh"
+                 imageClass="detailImage"
+                 [src]="processedImageUrl">
+      </app-image>
+    </div>
+  </ng-container>
+
+  <div class="detailInfo">
+    <div><b>Paciente:</b> {{ data.patient }}</div>
+    <div><b>Zona afectada:</b> {{ data.zone }}</div>
+    <div><b>Edad:</b> {{ data.age }}</div>
+    <div><b>Sexo:</b> {{ data.sex === 'male' ? 'Hombre' : 'Mujer' }}</div>
+    <div><b>Exposición al sol:</b> {{ data.sunExposure }}</div>
+    <div><b>Fecha de prueba:</b> {{ data.date }}</div>
+
+    <!-- Porcentaje y leyenda -->
+<div>
+  <b>¿Maligno?:</b>
+  {{ data.prediction | number:'1.0-2' }} %
+</div>
+  </div>
+</div>

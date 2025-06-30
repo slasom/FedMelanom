@@ -1,0 +1,7 @@
+/Resultados/.idea
+/Resultados/.resultadosEnv
+/front/node_modules
+/front/.angular
+*.csv
+*.h5
+*.jpg

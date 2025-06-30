@@ -1,0 +1,5 @@
+<div class="list">
+    <div *ngFor="let item of items">
+        <app-item [item]="item" (click)="selectItem(item.id)"></app-item>
+    </div>
+</div>

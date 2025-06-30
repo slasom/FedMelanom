@@ -1,0 +1,30 @@
+{
+    "navbarItemsLogged": [
+        {
+        "label": "Inicio",
+        "link": "/home"
+        },
+        {
+        "label": "Informes",
+        "link": "/informs"
+        },
+        {
+        "label": "Cuenta",
+        "link": "/account"
+        },
+        {
+        "label": "Cerrar Sesión",
+        "link": "/logout"
+        }
+    ],
+    "navbarItemsUnlogged": [
+        {
+        "label": "¿Que es Melanom Detector?",
+        "link": "/info"
+        },
+        {
+        "label": "Iniciar Sesión",
+        "link": "/login"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+.customButton{
+    position: relative;
+    border-radius: 2vh;
+    border-style: none;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    transition: ease-in-out 0.2s;
+    margin: 0vw 0vw 0vh 1vw;
+    text-align: center;
+    justify-content: center;
+    padding: 1.2vh;
+}
+.customButton:hover {
+    background-color: #ff8ad4 !important;
+    transform: scale(1.1);
+}

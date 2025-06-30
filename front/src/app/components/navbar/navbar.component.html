@@ -1,0 +1,10 @@
+<nav class="navbar">
+    <ul class="navbar-list">
+      <li *ngFor="let item of navBarItems">
+        <div class="navBarItem"
+             [ngStyle]="{'left': (item.link == '/login' || item.link == '/logout') ? '90vw' : 'initial',
+                         'position': (item.link == '/login' || item.link == '/logout') ? 'absolute' : 'relative'}"
+             (click)="redirectTo(item.link)">{{item.label}}</div>
+      </li>
+    </ul>
+</nav>

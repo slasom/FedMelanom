@@ -1,0 +1,14 @@
+<div class="{{extraClass + ' customSelect'}}">
+   <select [(ngModel)]="selectedOption" (change)="selectOption($event)">
+    <option value="0" disabled selected>{{defaultText}}</option>
+    <ng-container *ngIf="type=='patient'">
+        <option *ngFor="let patient of patients" [value]="patient?.id">{{patient?.name}}</option>
+    </ng-container>
+    <ng-container *ngIf="type=='string'">
+        <option *ngFor="let item of items" [value]="item">{{item}}</option>
+    </ng-container>
+   </select>
+   <div class="clickable cleanFilter" (click)="cleanFilter()" *ngIf="selectedOption != 0">
+    <app-image src="../../../assets/images/delete.webp" size="2vh" imageClass="rightIconFilter"></app-image>
+   </div> 
+</div>

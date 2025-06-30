@@ -1,0 +1,10 @@
+<div class="itemList" [class.itemListSelected]="item.selected">
+    <app-image imageClass="imageItem" size="20vh" [src]="originalImageUrl"></app-image>
+    <div class="itemListInfo">
+        <p class="itemListText">
+            <b>{{item.patient}}</b>
+        </p>
+        <p class="itemListText">{{item.zone}}</p>
+        <p class="itemListText">{{item.date}}</p>
+    </div>
+</div>

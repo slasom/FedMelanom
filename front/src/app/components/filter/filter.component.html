@@ -1,0 +1,14 @@
+<div class="filter" [ngClass]="isVisible ? 'filterVisible' : ''">
+    <app-dropdown [patients]="patients" type="patient" defaultText="Seleccione un paciente" extraClass="dropdownFilter" (optionSelected)="handlePatientSelected($event)"></app-dropdown>
+    <input type="date" name="calendar" id="date" [(ngModel)]="dateSelected">
+    <app-dropdown [items]="sunExposureOptions" type="string" defaultText="¿Exposición al sol?" extraClass="dropdownFilter" (optionSelected)="handleSunExposureSelected($event)"></app-dropdown>
+    <app-button text="Filtrar" (click)="searchResults()"></app-button>
+    <div class="clickable" (click)="showFilter()">
+        <ng-container *ngIf="!isVisible">
+          <app-image src="../../../assets/images/rightArrow.png" size="5vh" imageClass="rightIconFilter"></app-image>
+        </ng-container>
+        <ng-container *ngIf="isVisible">
+          <app-image src="../../../assets/images/leftArrow.webp" size="5vh" imageClass="rightIconFilter"></app-image>
+        </ng-container>
+    </div>
+</div>

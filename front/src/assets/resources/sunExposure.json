@@ -1,0 +1,16 @@
+{
+    "sunExposure": [
+        {
+        "label": "Baja",
+        "value": 1
+        },
+        {
+        "label": "Media",
+        "value": 1.25
+        },
+        {
+        "label": "Alta",
+        "value": 1.5
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+<app-navbar></app-navbar>
+<app-message [show]="showError" [text]="errorText"></app-message>
+<div class="login">
+    <div class="usernameLogin">
+        <label for="username">Nº de colegiado</label>
+        <input type="text" id="id" name="id" placeholder="Ingrese su numero de colegiado" [(ngModel)]="id"> 
+    </div>
+    <div class="passwordLogin">
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" name="password" placeholder="Ingrese su contraseña" [(ngModel)]="password">
+    </div>
+    <app-button text="Iniciar Sesión" buttonClass="loginbutton" (click)="checkCredentials()"></app-button>
+</div>

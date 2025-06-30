@@ -1,0 +1,25 @@
+📁 Conjunto 'train'
+binary_label
+0    3524
+1     476
+Total: 4000 imágenes
+
+📁 Conjunto 'medico1'
+binary_label
+0    1792
+1     208
+Total: 2000 imágenes
+
+📁 Conjunto 'medico2'
+binary_label
+0    1785
+1     215
+Total: 2000 imágenes
+
+📁 Conjunto 'medico3'
+binary_label
+0    1801
+1     214
+Total: 2015 imágenes
+
+✅ División completada y etiquetas alineadas.

@@ -1,0 +1,38 @@
+{
+  "patients": [
+    { "id": "1",   "name": "Juan Perez",        "age": 35, "gender": "male"     },
+    { "id": "2",   "name": "Maria Lopez",       "age": 45, "gender": "female"   },
+    { "id": "3",   "name": "Carlos Martinez",   "age": 28, "gender": "male"     },
+
+    { "id": "p001", "name": "Lucia Garcia",      "age": 28, "gender": "Femenino" },
+    { "id": "p002", "name": "Carlos Fernandez",  "age": 45, "gender": "Masculino"},
+    { "id": "p003", "name": "Maria Lopez",       "age": 34, "gender": "Femenino" },
+    { "id": "p004", "name": "Javier Martinez",   "age": 51, "gender": "Masculino"},
+    { "id": "p005", "name": "Sofia Gomez",       "age": 29, "gender": "Femenino" },
+    { "id": "p006", "name": "Alejandro Diaz",    "age": 38, "gender": "Masculino"},
+    { "id": "p007", "name": "Laura Perez",       "age": 41, "gender": "Femenino" },
+    { "id": "p008", "name": "David Torres",      "age": 36, "gender": "Masculino"},
+    { "id": "p009", "name": "Paula Romero",      "age": 31, "gender": "Femenino" },
+    { "id": "p010", "name": "Hugo Navarro",      "age": 26, "gender": "Masculino"},
+    { "id": "p011", "name": "Elena Ruiz",        "age": 53, "gender": "Femenino" },
+    { "id": "p012", "name": "Manuel Jimenez",    "age": 47, "gender": "Masculino"},
+    { "id": "p013", "name": "Carmen Castillo",   "age": 39, "gender": "Femenino" },
+    { "id": "p014", "name": "Jose Morales",      "age": 58, "gender": "Masculino"},
+    { "id": "p015", "name": "Ana Ortega",        "age": 24, "gender": "Femenino" },
+    { "id": "p016", "name": "Sergio Ramos",      "age": 37, "gender": "Masculino"},
+    { "id": "p017", "name": "Natalia Herrera",   "age": 33, "gender": "Femenino" },
+    { "id": "p018", "name": "Francisco Castro",  "age": 55, "gender": "Masculino"},
+    { "id": "p019", "name": "Isabel Santos",     "age": 43, "gender": "Femenino" },
+    { "id": "p020", "name": "Mario Alonso",      "age": 30, "gender": "Masculino"},
+    { "id": "p021", "name": "Beatriz Medina",    "age": 27, "gender": "Femenino" },
+    { "id": "p022", "name": "Daniel Vargas",     "age": 40, "gender": "Masculino"},
+    { "id": "p023", "name": "Clara Molina",      "age": 36, "gender": "Femenino" },
+    { "id": "p024", "name": "Luis Rojas",        "age": 49, "gender": "Masculino"},
+    { "id": "p025", "name": "Patricia Leon",     "age": 32, "gender": "Femenino" },
+    { "id": "p026", "name": "Ivan Serrano",      "age": 28, "gender": "Masculino"},
+    { "id": "p027", "name": "Eva Pena",          "age": 44, "gender": "Femenino" },
+    { "id": "p028", "name": "Tomas Bravo",       "age": 50, "gender": "Masculino"},
+    { "id": "p029", "name": "Raquel Aguirre",    "age": 35, "gender": "Femenino" },
+    { "id": "p030", "name": "Adrian Pastor",     "age": 42, "gender": "Masculino"}
+  ]
+}

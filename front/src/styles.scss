@@ -1,0 +1,81 @@
+/* You can add global styles to this file, and also import other style files */
+
+//FONTS
+@import "assets/fonts/fonts.scss";
+
+//STYLES
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    margin: 0;
+    height: 100vh;
+}
+.content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 3vh 3vw 0vh 2vw;
+}
+input{
+    font-family: 'Montserrat', sans-serif;
+}
+input::file-selector-button{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    border-radius: 2vh;
+    border-style: none;
+    padding: 0.8vh 0.8vh 0.8vw 0.5vw;
+    font-weight: 600;
+    transition: ease-in-out 0.2s;
+    margin: 0.4vw;
+    text-align: center;
+}
+input::file-selector-button:hover {
+    background-color: #ff8ad4 !important;
+    transform: scale(1.1);
+}
+input[type="text"],
+input[type="password"]{
+    width: 90%;
+    padding: 0.8vw;
+    border: 0.1vw solid #ccc;
+    border-radius: 1.1vw;
+    margin: 2vh 0vw 2vh 0vw;
+}
+input[type="date"]{
+    border-radius: 1vh;
+    width: 8vw;
+    height: 2.5vh;
+    margin: 0vh 0vw 0vh 1vw;
+    font-weight: 600;
+}
+.loginbutton {
+    left: 30%;
+}
+.imageItem {
+    top: 2%;
+    left: 7%;
+}
+.detailImage {
+    left: 22%;
+}
+.clickable {
+    cursor: pointer;
+}
+.dropdownFilter{
+    margin: 0vh 0vw 0vh 1vw !important;
+}
+.rightIconFilter {
+    margin: 0.5vh 0vw 0vh 0.5vw !important
+}
+.cleanFilter {
+    position: absolute;
+    top: 0vh;
+    left: 7.3vw;
+}
+.title{
+    position: relative;
+    margin-left: 12vw;
+    font-size: 3vh;
+    font-style: bold;
+}

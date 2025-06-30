@@ -1,0 +1,21 @@
+<app-navbar></app-navbar>
+<app-message [show]="showMessage" [text]="messageText" [type]="messageType"></app-message>
+<ng-container *ngIf="loading">
+    <app-loading [text]="spinnerText"></app-loading>
+</ng-container>
+<div class="content user">
+    <p><b>Nº de colegiado: </b>{{userInfo.id}}</p>
+    <p><b>Nombre completo: </b>{{userInfo.name}}</p>
+    <div class="formField">
+        <p style="text-decoration: underline;" class="titleField"><b>Factor exposición solar</b></p>
+        <p class="titleField">Alto:</p>
+        <input style="width: 4% !important;" class="inputForm" type="text" [(ngModel)]="userInfo.sunExposure.alta">
+        <p class="titleField">Medio:</p>
+        <input style="width: 4% !important;" class="inputForm" type="text" [(ngModel)]="userInfo.sunExposure.media">
+    </div>
+    <div class="buttonsContainer">
+        <app-button (click)="saveSettings()" text="Guardar ajustes"></app-button>
+        <app-button text="Mejorar modelo local" (click)="retrainModel()"></app-button>
+        <app-button text="Aplicar aprendizaje federado" (click)="federatedLearning()"></app-button>
+    </div>
+</div>

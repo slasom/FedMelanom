@@ -1,0 +1,22 @@
+.login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20vw;
+    padding: 2vw;
+    border: 0.1vw solid #ccc;
+    border-radius: 0.5vw;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px rgba(177, 175, 240, 2);
+}
+.usernameLogin{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.passwordLogin{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}

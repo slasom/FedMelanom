@@ -1,0 +1,15 @@
+.formField {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.titleField {
+    margin: 0vh 0.5vw 0vh 0vw;
+}
+.inputForm {
+    width: 30% !important;
+}
+.buttonsRow {
+    margin: 3vh 0vw 0vh -0.5vw;
+}

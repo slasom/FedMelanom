@@ -1,0 +1,15 @@
+.detailContainer {
+    position: fixed;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    margin-top: -3vh;
+}
+.detailInfo {
+    position: relative;
+    display: flex;
+    margin: 1vh 0vw 0vh 5vw;
+    font-size: 1.2vw;
+    padding: 1vh;
+    flex-direction: column;
+    gap: 1vh;
+}

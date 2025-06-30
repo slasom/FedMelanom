@@ -1,0 +1,23 @@
+<app-navbar></app-navbar>
+<app-message [show]="showError" [text]="errorText"></app-message>
+<div class="content">
+    <div class="formField">
+        <p class="titleField">Paciente:</p>
+        <app-dropdown [patients]="patients" type="patient" (optionSelected)="handlePatientSelected($event)"></app-dropdown>
+    </div>
+    <div class="formField">
+        <p class="titleField">Zona afectada:</p>
+        <input class="inputForm" type="text" [(ngModel)]="zone">
+    </div>
+    <div class="formField">
+        <p class="titleField">Exposición al sol:</p>
+        <app-dropdown [items]="sunExposureOptions" type="string" (optionSelected)="handleSunExposureSelected($event)"></app-dropdown>
+    </div>
+    <div class="formField buttonsRow">
+        <input type="file" (change)="onFileSelected($event)">
+        <app-button (click)="predictImage()" text="Generar informe"></app-button>
+    </div>
+    <div *ngIf="selectedFile" class="formField">
+        <app-image size="40vh" [src]="[imageSrc]"></app-image>
+    </div>
+</div>

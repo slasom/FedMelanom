@@ -1,0 +1,69 @@
+{
+    "informs": [
+        {
+            "id": "2ZTcnAeDNa",
+            "Paciente": "Carlos Martinez",
+            "idPaciente": "3",
+            "Edad": 28,
+            "Sexo": "male",
+            "Zona": "Face",
+            "ExposicionSolar": "Media",
+            "ImagenOriginal": "images\\000000000\\20250617110159_000000000_3.jpg",
+            "ImagenProcesada": "images\\3\\processed\\ISIC_3.jpg",
+            "Fecha": "17/06/2025",
+            "Prediccion": 0.32016754150390625
+        },
+        {
+            "id": "7LhlBLp7zF",
+            "Paciente": "Sofia Gomez",
+            "idPaciente": "p005",
+            "Edad": 29,
+            "Sexo": "Femenino",
+            "Zona": "Leg",
+            "ExposicionSolar": "Alta",
+            "ImagenOriginal": "images\\000000000\\20250617110212_000000000_p005.jpg",
+            "ImagenProcesada": "images\\p005\\processed\\ISIC_0.jpg",
+            "Fecha": "17/06/2025",
+            "Prediccion": 70.24658203125
+        },
+        {
+            "id": "0IOYjzDxhJ",
+            "Paciente": "Alejandro Diaz",
+            "idPaciente": "p006",
+            "Edad": 38,
+            "Sexo": "Masculino",
+            "Zona": "Face",
+            "ExposicionSolar": "Media",
+            "ImagenOriginal": "images\\000000000\\20250627101036_000000000_p006.jpg",
+            "ImagenProcesada": "images\\p006\\processed\\ISIC_0.jpg",
+            "Fecha": "27/06/2025",
+            "Prediccion": 50.72998046875001
+        },
+        {
+            "id": "gG5lObDuD2",
+            "Paciente": "Javier Martinez",
+            "idPaciente": "p004",
+            "Edad": 51,
+            "Sexo": "Masculino",
+            "Zona": "Face",
+            "ExposicionSolar": "Alta",
+            "ImagenOriginal": "images\\000000000\\20250627101058_000000000_p004.jpg",
+            "ImagenProcesada": "images\\p004\\processed\\ISIC_0.jpg",
+            "Fecha": "27/06/2025",
+            "Prediccion": 0.0
+        },
+        {
+            "id": "dwT7B5El2A",
+            "Paciente": "Eva Pena",
+            "idPaciente": "p027",
+            "Edad": 44,
+            "Sexo": "Femenino",
+            "Zona": "Leg",
+            "ExposicionSolar": "Alta",
+            "ImagenOriginal": "images\\000000000\\20250627101204_000000000_p027.jpg",
+            "ImagenProcesada": "images\\p027\\processed\\ISIC_0.jpg",
+            "Fecha": "27/06/2025",
+            "Prediccion": 71.5380859375
+        }
+    ]
+}

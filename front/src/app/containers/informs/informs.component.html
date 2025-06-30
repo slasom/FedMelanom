@@ -1,0 +1,13 @@
+<app-navbar></app-navbar>
+<app-filter (filterSelected)="onFilterSelected($event)"></app-filter>
+<div class="informContainer" *ngIf="informs.length > 0">
+    <app-list [items]="informs" [filter]="filter"></app-list>
+    <app-detail></app-detail>
+</div>
+<div class="informContainer" *ngIf="informs.length === 0">
+    <div class="content title">
+        Todavía no se ha realizado ningún informe / 
+        El informe que busca no se encuentra disponible
+    </div>
+</div>
+
