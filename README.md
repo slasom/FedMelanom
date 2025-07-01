@@ -212,8 +212,7 @@ ng build
 # .gitignore recommendations
 It is recommended to exclude the following from version control:
 - fastapi-env/
-- data/isic2018/
-- data/isic2018Fed/
+- data/
 - images/
 - labels/
 - models/
