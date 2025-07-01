@@ -1,7 +1,12 @@
-/Resultados/.idea
-/Resultados/.resultadosEnv
+/Resultados
 /front/node_modules
 /front/.angular
+/api/models
+/api/data
+/api/checkpoints
+/api/images
 *.csv
 *.h5
 *.jpg
+.gitignore
+.idea
