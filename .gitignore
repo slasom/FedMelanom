@@ -5,6 +5,7 @@
 /api/data
 /api/checkpoints
 /api/images
+/api/labels
 *.csv
 *.h5
 *.jpg
