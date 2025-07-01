@@ -116,6 +116,8 @@ if __name__ == "__main__":
 ```
 
 ## API Directory Structure
+> **Note:** Some directories described below (such as `data/`, `images/`, `models/`, and `checkpoints/`) are not present in the repository due to storage constraints, but are documented here for reference and local use.
+
 
 The `api/` directory is organized as follows:
 
@@ -123,10 +125,10 @@ The `api/` directory is organized as follows:
   Stores model checkpoints saved after each retraining cycle. These are used to resume models that have already been retrained, rather than using the base or federated models.
 
 - **data/**  
-  Contains all datasets used for training and evaluation.
+  This folder is intended to contain all datasets used for training and evaluation.  
+  **However, due to their large size, images and dataset files are not included in the repository.**  
     - **isic2018/**: The full ISIC 2018 Challenge dataset, with images and labels used for initial training and validation.
-    - **isic2018Fed/**: Contains partitioned subsets of the ISIC2018 dataset, simulating three independent medical centers. Images and labels are split via a custom script (`redistribucion.py`), with each subfolder (e.g., `medico1`, `medico2`, `medico3`) representing a different center. **Note:** Images and large data files are not included in the repository due to their size.
-
+    - **isic2018Fed/**: Contains partitioned subsets of the ISIC2018 dataset, simulating three independent medical centers. Images and labels are split via a custom script (`redistribucion.py`), with each subfolder (e.g., `medico1`, `medico2`, `medico3`) representing a different center.
 - **evaluations/**  
   (If used) Stores results or logs from evaluation runs.
 
@@ -148,11 +150,11 @@ The `api/` directory is organized as follows:
   Stores the label files generated after model predictions. Each subfolder (named after a medical center's ID) contains the corresponding prediction labels attached to images, supporting retraining and federated aggregation.
 
 - **models/**  
-  Stores trained model files.
+  This folder is intended to store all trained model files.  
+  **However, due to their large size, model files are not included in the repository.**
     - **basic/**: Contains a centralized model trained on a large (10,000-image) dataset for comparison against federated models.
     - **fed/**: Stores the base model for federated learning, as well as retrained models for each center.
     - **average/**: Contains the federated averaged models.
-    > **Note:** Model files are not included in the repository due to their size.
 
 - **fastapi-env/**  
   (Local only) Python virtual environment directory (should be excluded from the repository).
