@@ -10,6 +10,5 @@
 *.jpg
 .gitignore
 .idea
-/api/evaluations/
 /api/fastapi-env/
 /api/__pycache__/
